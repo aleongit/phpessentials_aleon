@@ -21,7 +21,7 @@ $QUESTIONS = [
         Decideix quina seria la més adients i raona la resposta. Utilitza una taula.",
         13 => "Imprimeix per pantalla els quadrats dels 20 primers nombres naturals (1..20).
         Utilitzant un for i un while.",
-        14 => "Recull dos nombres per URL dels quals hauràs d’imprimir la taula de multiplicar 
+        14 => "Recull dos nombres per URL (exemple?N1=2&N2=5) dels quals hauràs d’imprimir la taula de multiplicar 
         i fer també les operacions bàsiques, suma, resta, divisió, multiplicació, divisió sencera, residuo, potència."
     ],
     2 => [

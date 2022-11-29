@@ -1,7 +1,10 @@
-<?php require_once 'includes/helpers.php'; ?>
-<?php $titol = "PHP Essentials - aleon"; ?>
-<?php require_once 'includes/header.php'; ?>
-<?php require_once 'includes/questions.php'; ?>
+<?php
+define('TITOL', 'PHP Essentials - aleon');
+define('PATH_ROOT', '')
+?>
+<?php require_once PATH_ROOT.'includes/helpers.php'; ?>
+<?php require_once PATH_ROOT.'includes/questions.php'; ?>
+<?php require_once PATH_ROOT.'includes/header.php'; ?>
 
 <!-- 
 -->
@@ -9,6 +12,9 @@
 
   <?php
   //var_dump($QUESTIONS);
+  //ECHO __DIR__;
+  //echo get_include_path();
+  //echo $_SERVER['DOCUMENT_ROOT'];
 
   foreach ($QUESTIONS as $key => $value) {
 
@@ -19,7 +25,7 @@
     foreach ($value as $subkey => $subvalue) {
       echo "<li>
           <strong>{$key}.{$subkey}.</strong> 
-          <a class='sense_deco' href='essentials/{$key}/{$subkey}.php'>$subvalue</a>
+          <a class='sense_deco' href='essentials/{$key}/{$subkey}.php?key={$key}&subkey={$subkey}'>$subvalue</a>
           </li>";
     }
     echo "</ul></div>";
@@ -30,4 +36,4 @@
   <!-- fi main -->
 </div>
 
-<?php require_once 'includes/footer.php'; ?>
+<?php require_once PATH_ROOT.'includes/footer.php'; ?>

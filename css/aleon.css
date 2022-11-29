@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto Mono&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto Mono&display=swap");
 
 * {
-box-sizing: border-box;
-font-family: 'Roboto Mono', monospace, Courier;
-margin: 0;
-padding: 0;
+  box-sizing: border-box;
+  /*font-family: "Roboto Mono", monospace, Courier;*/
+  margin: 0;
+  padding: 0;
 }
 
-a:visited, a:link {
-  color: #6e6e6e
+a:visited,
+a:link {
+  color: #6e6e6e;
 }
 
 a:hover {
@@ -16,12 +17,13 @@ a:hover {
 }
 
 body {
-background-color: whitesmoke;
-color: #4a4a4a;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.5;
- }
+  font-family: "Roboto Mono", monospace, Courier;
+  background-color: whitesmoke;
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
 
 .container {
   display: block;
@@ -35,7 +37,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  flex:100%;
+  flex: 100%;
 }
 
 div.marca {
@@ -66,17 +68,19 @@ nav {
 }
 
 .logo {
-font-size: 1.5em;
-line-height: 1.5em;
-text-align: center;
-margin: 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0;
 }
 
-.logo .blau, .fitxa .blau {
+.logo .blau,
+.fitxa .blau {
   color: dodgerblue;
 }
 
-.logo .negre, .fitxa .negre {
+.logo .negre,
+.fitxa .negre {
   color: black;
 }
 
@@ -84,7 +88,8 @@ margin: 0;
   text-decoration: none;
 }
 
-.sense_deco:link, .a_logo:visited {
+.sense_deco:link,
+.a_logo:visited {
   color: #4a4a4a;
 }
 
@@ -145,8 +150,19 @@ margin: 0;
   color: black;
 }
 
-.button.is-info:hover, .button.is-yes:hover, .button.is-no:hover, .button.is-new:hover {
+.button.is-info:hover,
+.button.is-yes:hover,
+.button.is-no:hover,
+.button.is-new:hover {
   opacity: 0.9;
+}
+
+.pregunta {
+  background: white;
+  padding: 10px;
+  border: solid #bbb9b9;
+  border-width: 1px 0 1px 0;
+  margin: 5px 0 1em;
 }
 
 .main {
@@ -160,7 +176,12 @@ margin: 0;
   border-width: 1px 0 1px 0;
 }
 
-.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+.main h1,
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
   color: #363636;
   font-weight: 600;
   line-height: 1.125;
@@ -182,7 +203,7 @@ margin: 0;
 }
 
 .main pre {
-  font-family: 'Roboto Mono', monospace, Courier !important;
+  font-family: "Roboto Mono", monospace, Courier !important;
   font-size: 1em !important;
   margin-bottom: 2em;
   white-space: pre-wrap;
@@ -216,7 +237,7 @@ code {
 }
 
 .code_fitxa {
-  background:ghostwhite;
+  background: ghostwhite;
   color: black;
   font-size: larger;
 }
@@ -233,31 +254,34 @@ code .camp {
   border-color: #6e6e6e;
 }
 
-
 /* table _______________________________________________ */
-table { 
+table {
   text-align: left;
-  border-spacing: 0.1rem;  
+  border-spacing: 0.1rem;
 }
 
-tr {  border-bottom: 1px solid #ddd;  }
+tr {
+  border-bottom: 1px solid #ddd;
+}
 
 th {
   /*background-color: hsl(0, 0%, 90%);*/
   /*border-bottom: 1px solid #ddd;*/
   padding: 0.2rem;
- }
+}
 
 td {
   /*border-bottom: 1px solid #ddd;*/
   padding: 0.2rem;
-  width: 3rem;
-  height:3rem;  
+  width: 2rem;
+  height: 2rem;
 }
 
 /*td:nth-child(even) {background-color: #f2f2f2;}*/
 
-td:hover {background-color: whitesmoke;}
+td:hover {
+  background-color: whitesmoke;
+}
 
 /*form _________________________________________________ */
 
@@ -273,7 +297,10 @@ td:hover {background-color: whitesmoke;}
   margin: 0 0 0 1em;
 }
 
-input, select, textarea, .submit {
+input,
+select,
+textarea,
+.submit {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -289,8 +316,9 @@ label {
   font-weight: bold;
 }
 
-input[type=submit], .submit {
-  background-color:#4d4d4d;
+input[type="submit"],
+.submit {
+  background-color: #4d4d4d;
   color: white;
   padding: 12px 50px;
   border: none;
@@ -299,8 +327,9 @@ input[type=submit], .submit {
   text-decoration: none;
 }
 
-input[type=submit]:hover, .submit:hover {
-  background-color:#404040;
+input[type="submit"]:hover,
+.submit:hover {
+  background-color: #404040;
 }
 
 .col-20 {
@@ -313,7 +342,6 @@ input[type=submit]:hover, .submit:hover {
   float: left;
   width: 75%;
 }
-
 
 .error {
   font-weight: bold;
@@ -359,8 +387,8 @@ h1.error {
 }
 
 footer {
-padding: 3em 0;
-text-align: center;
+  padding: 3em 0;
+  text-align: center;
 }
 
 ul {
@@ -369,17 +397,22 @@ ul {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-
-  .col-10, .col-25, .col-75 {
+  .col-10,
+  .col-25,
+  .col-75 {
     width: 100%;
     margin-top: 0;
   }
 
-  input[type=submit], .input_petit, .submit, input[type=text], select {
+  input[type="submit"],
+  .input_petit,
+  .submit,
+  input[type="text"],
+  select {
     width: 100%;
   }
 
-  nav{
+  nav {
     flex-direction: column;
   }
 
@@ -394,7 +427,11 @@ ul {
     margin: 0.2em;
   }
 
-  .row, .row_small, .ok, .error, .container_form h1 {
+  .row,
+  .row_small,
+  .ok,
+  .error,
+  .container_form h1 {
     margin: 0;
   }
 
@@ -403,6 +440,96 @@ ul {
     margin: 0 auto;
     width: 100%;
   }
-
-
 }
+
+/*1*/
+.seccio1 table {
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  border-spacing: 0.1rem;
+  padding-bottom: 2rem;
+}
+
+.seccio1 .rowflex tr {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: none;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.seccio1 th {
+  background-color: hsl(0, 0%, 90%);
+  border-bottom: 1px solid #ddd;
+  padding: 0.2rem;
+}
+
+.seccio1 td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.2rem;
+}
+
+.seccio1 .tdautosize td {
+  width: auto;
+  height: auto;
+}
+
+.seccio1 td:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.seccio1 td:hover {
+  background-color: #ffff4d;
+}
+
+/*
+
+form {
+  background-color: #e6f2ff;
+  padding: 10px;
+}
+
+label {
+  font-weight: bolder;
+  background-color: #cce6ff;
+}
+
+input {
+  font-size: 1em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+select {
+  font-size: 1em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+textarea {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px;
+}
+
+footer {
+  padding-top: 2rem;
+  font-size: smaller;
+}
+*/
