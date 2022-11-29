@@ -2,8 +2,9 @@
 
 Recopilació d'exercicis essencials PHP by aleon.
 
-- Variables 11 to 110
- 
+- **Variables** 11 to 110
+- TODO: **Functions** 21 to 28
+
 
 ## Requeriments
 
