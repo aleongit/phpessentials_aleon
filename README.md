@@ -1,7 +1,9 @@
 # PHP Essentials by aleon
 
-TODO:
 Recopilació d'exercicis essencials PHP by aleon.
+
+- Variables 11 to 110
+ 
 
 ## Requeriments
 
