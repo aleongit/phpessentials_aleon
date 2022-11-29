@@ -3,7 +3,7 @@
 
 <div class='main'>
     <div class='seccio1'>
-
+        <!-- exercici -->
         <?php
         define("N", 20); //constant
 
@@ -24,7 +24,7 @@
         };
         echo "</tr> </table>";
         ?>
+        <!-- fi exercici -->
     </div>
 </div>
-
 <?php require_once PATH_ROOT . 'includes/footer.php'; ?>

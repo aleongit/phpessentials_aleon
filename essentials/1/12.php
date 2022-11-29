@@ -3,7 +3,7 @@
 
 <div class='main'>
     <div class='seccio1'>
-
+        <!-- exercici -->
         <?php
         define("MAX", 100); //constant
 
@@ -51,8 +51,7 @@
         echo "</tr> </table>";
         echo "<h4><mark>*Crec que 'for' és la més adient per ser més curta i òptima</mark></h4>";
         ?>
-
+        <!-- fi exercici -->
     </div>
 </div>
-
 <?php require_once PATH_ROOT . 'includes/footer.php'; ?>

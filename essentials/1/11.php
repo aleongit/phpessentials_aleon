@@ -3,7 +3,7 @@
 
 <div class='main'>
     <div class='seccio1'>
-
+        <!-- exercici -->
         <?php
         #variables
         $enter = 25;            //enter
@@ -67,8 +67,7 @@
             . "</ol>";
 
         ?>
-
+        <!-- fi exercici -->
     </div>
 </div>
-
 <?php require_once PATH_ROOT . 'includes/footer.php'; ?>
