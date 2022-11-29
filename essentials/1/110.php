@@ -3,6 +3,7 @@
 
 <div class='main'>
     <div class='seccio1'>
+        
         <!-- exercici -->
         <?php
         #isset, si la variable està definida i no és NULL
@@ -35,7 +36,7 @@
                 echo "<h1>El número ha de ser entre 2 i 999</h1></br>";
             }
         }
-        
+
         #echo $_SERVER['PHP_SELF']; //en form action per mateixa pàgina
         echo "<form method='post' action=" . $_SERVER['PHP_SELF'] . ">";
         echo "<label for='num'>Número [< 1000]:</label><br>";

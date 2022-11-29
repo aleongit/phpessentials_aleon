@@ -20,7 +20,7 @@ define('PATH_ROOT', '')
 
     echo '<div class="seccio">';
     echo "<h1>{$key}. {$SECTIONS[$key]['title']}</h1>";
-    echo "<h2>{$SECTIONS[$key]['subtitle']}</h2>";
+    echo "<h2 id='seccio{$key}'>{$SECTIONS[$key]['subtitle']}</h2>";
     echo "<ul>";
     foreach ($value as $subkey => $subvalue) {
       echo "<li>

@@ -12,7 +12,7 @@
   <title><?php echo TITOL; ?></title><!-- títol de la web -->
 
   <!-- estils aleon -->
-  <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT.'css/aleon.css' ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT . 'css/aleon.css' ?>">
 
   <!-- CSS interns -->
   <style></style>
@@ -27,14 +27,19 @@
     <!-- menú capçalera____________________________________________________________-->
     <header>
       <div class='marca'>
-        <a class='sense_deco' href="<?php echo PATH_ROOT.'index.php'?>">
+        <a class='sense_deco' href="<?php echo PATH_ROOT . 'index.php' ?>">
           <h2 class='logo'>PHP Essentials <span class='blau'>{<span class='negre'>aleon</span>}</span></h2>
         </a>
       </div>
       <nav>
         <!--<a class='button' href='test.php' >Test</a>-->
-        <a class='button' href="<?php echo PATH_ROOT.'index.php'?>">Home</a>
-
+        <a class='button' href="<?php echo PATH_ROOT . 'index.php' ?>">Home</a>
+        <?php
+        foreach ($SECTIONS as $key => $value) {
+          $href = PATH_ROOT . "index.php#seccio{$key}";
+          echo "<a class='button' href='{$href}'>{$value['title']}</a>";
+        }
+        ?>
         <a class='button' href='#'>About</a>
       </nav>
 

@@ -3,6 +3,7 @@
 
 <div class='main'>
     <div class='seccio1'>
+        
         <!-- exercici -->
         <?php
         define("MAX", 100); //constant

@@ -3,6 +3,7 @@
 
 <div class='main'>
     <div class='seccio1'>
+        
         <!-- exercici -->
         <?php
         #isset, si la variable està definida i no és NULL

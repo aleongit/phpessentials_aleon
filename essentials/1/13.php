@@ -3,6 +3,7 @@
 
 <div class='main'>
     <div class='seccio1'>
+        
         <!-- exercici -->
         <?php
         define("N", 20); //constant

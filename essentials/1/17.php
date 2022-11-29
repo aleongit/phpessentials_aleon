@@ -3,6 +3,7 @@
 
 <div class='main'>
     <div class='seccio1'>
+        
         <!-- exercici -->
         <?php
         # exemple URL
@@ -24,7 +25,6 @@
             if (isset($_GET['N1']) && isset($_GET['N2'])) {
 
                 #comprovar si numèrics
-
                 if (is_numeric($_GET['N1']) && is_numeric($_GET['N2'])) {
                     #echo "OK tots 2 numèrics";
 

@@ -38,8 +38,19 @@ $QUESTIONS = [
        2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 i 97."
     ],
     2 => [
-        21 => "test 21",
-        22 => "test 22",
+        21 => "Fes una funció per calcular el factorial d’un número (utilitzant un bucle) que passem per URL.",
+        22 => "Fes una funció per calcular l’àrea d’un rectangle, tenint en compte que la mida dels costats 
+        es passa per GET. Fes una versió amb echo dins la funció i una altra amb return.",
+        23 => "Utilitzant un array de 2 dimensions amb el mesos i el nombre de dies corresponent. 
+        Fes una funció que donat un mes que passem per get ens digui quants dies té. 
+        Les dades provindran d’un formulari on amb un select tries el mes.",
+        24 => "Fes una pàgina on a partir d’un formulari on es recull una temperatura 
+        i en quina escala està, en la conversió.",
+        25 => "Fes una funció per comprovar si un string està en minúscules 
+        (utilitza només les funcions que hem après a classe).",
+        26 => "Fes una funció per comprovar si un string és un palíndrom o no.",
+        27 => "Fes un programa en php que pinti un tauler d’escacs per pantalla.",
+        28 => "Fes un programa per fer una calculadora amb botons.",
         ]
 
 ];
