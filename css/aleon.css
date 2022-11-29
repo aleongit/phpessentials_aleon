@@ -482,54 +482,35 @@ ul {
   background-color: #ffff4d;
 }
 
-/*
-
-form {
+.seccio1 form {
   background-color: #e6f2ff;
   padding: 10px;
 }
 
-label {
-  font-weight: bolder;
-  background-color: #cce6ff;
-}
-
-input {
+.seccio1 input {
   font-size: 1em;
   padding: 12px 20px;
   margin: 8px 0;
   font-weight: bold;
 }
 
-input[type="text"] {
+.seccio1 input[type="text"] {
   box-sizing: border-box;
   transition: width 0.4s ease-in-out;
 }
 
-input[type="text"]:focus {
+.seccio1 input[type="text"]:focus {
   width: 100%;
 }
 
-select {
-  font-size: 1em;
-  padding: 12px 20px;
-  margin: 8px 0;
-  font-weight: bold;
-}
-
-textarea {
+.seccio1 textarea {
   font-size: 1.2em;
   padding: 5px;
   margin: 5px;
 }
 
-button {
+.seccio1 button {
   font-size: 1em;
   padding: 10px;
 }
 
-footer {
-  padding-top: 2rem;
-  font-size: smaller;
-}
-*/

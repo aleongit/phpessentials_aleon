@@ -5,7 +5,6 @@
     <div class='seccio1'>
         <!-- exercici -->
         <?php
-
         # exemple URL
         # /fitxer.php?N1=1=&N2=100
 

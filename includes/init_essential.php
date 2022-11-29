@@ -1,6 +1,6 @@
 <?php
-define('KEY', $_GET['key']);
-define('SUBKEY', $_GET['subkey']);
+define('KEY', $_GET['key'] ?? 0);
+define('SUBKEY', $_GET['subkey'] ?? 0);
 define('TITOL', 'PHP Essentials' . SUBKEY . ' - aleon');
 ?>
 <?php require_once 'helpers.php'; ?>
@@ -10,6 +10,6 @@ define('TITOL', 'PHP Essentials' . SUBKEY . ' - aleon');
 <?php
 echo "<div class='pregunta'>";
 echo "<strong>" . KEY . "." . SUBKEY . " </strong>";
-echo "{$QUESTIONS[KEY][SUBKEY]}";
+echo (KEY != 0) ? "{$QUESTIONS[KEY][SUBKEY]}" : null;
 echo "</div>";
 ?>
