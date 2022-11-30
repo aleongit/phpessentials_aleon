@@ -18,7 +18,12 @@
   <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT . 'css/seccio3.css' ?>">
 
   <!-- CSS interns -->
-  <style></style>
+  <style>
+    <?php
+    echo "body, form, label, nav, .main, div.marca, .button, .pregunta
+     {  background-color:" . $globals['cpagina'] . "; color:" . $globals['ctext'] . "; } ";
+    ?>
+  </style>
 
 </head>
 

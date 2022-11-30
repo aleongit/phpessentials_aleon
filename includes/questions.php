@@ -17,6 +17,10 @@ $SECTIONS = [
         'title' => "Sessions",
         'subtitle' => "Subtitle sessions"
     ],
+    5 => [
+        'title' => "Cookies",
+        'subtitle' => "Subtitle cookies"
+    ],
 
 ];
 
@@ -117,6 +121,26 @@ $QUESTIONS = [
         <br><strong>c/</strong>
         Fer la pàgina de logout que s’hi accedeix si es prem el botó de logout, o bé si s’ha acabat la sessió (d’1 minut com a màxim).
         On es destrueix la sessió i es mostra un missatge que diu fins la propera.",
+    ],
+    5 => [
+        51 => "Crea una pàgina amb 3 botons:
+        <br>. Crear una galeta amb una durada de 15 segons que desi “galeta creada”
+        <br>. Comprovar la galeta.
+        <br>. Destruir la galeta.",
+        52 => "Fes una cookie que desa la data (time stamp) de la darrera visita en la que 
+        un usuari ha estat a la nostra web, i que ens mostri quants segons, hores, o dies 
+        fa de la seva darrera visita, en cas que sigui la primera vegada que ens visita,
+        que aparegui un missatge de benvingut. (Fes una funció per fer els càlculs. 
+        Esbrina com php desa la informació en la funció time() per exemple)",
+        53 => "Fes un programa amb php, que utilitzant una cookie tingui 
+        un comptador de visites durant les properes 24h. 
+        Per cada 5 visites apareixerà una estrella a sota el núm. de visites, 
+        amb un màxim de 3 estrelles.",
+        54 => "Fes un formulari php amb 2 input de tipus select que permeti escollir el color de fons de la pàgina i el color del text.
+        Aquest colors s’ha de guardar en dues cookies, de manera que quan tornem a carregar la pàgina recordi els colors.
+        El color de fons per defecte és blanc, i el text negre.
+        El programa no ha de permetre escollir el mateix color de fons que de text.",
+
     ],
 ];
 

@@ -6,6 +6,7 @@ Recopilació d'exercicis essencials PHP by aleon.
 - **Functions** 21 to 28
 - **Arrays, include and require** 31 to 37
 - **Sessions** 41 to 42
+- **Cookies** 51 to 54
 
 
 ## Requeriments
