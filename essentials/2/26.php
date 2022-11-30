@@ -28,17 +28,9 @@
             if ($girada == $cad) {
                 $ok = True;
             }
-            echo "<h2>" . $girada . "</h2>";
+            echo $girada . "</h2>";
             return $ok;
         }
-
-        #echo $_SERVER['PHP_SELF']; //en form action per mateixa pàgina
-
-        echo "<form method='get' action=" . $_SERVER['PHP_SELF'] . ">";
-        echo "<label for='t1'>Cadena: </label>";
-        echo "<br><input type='text' id='t1' name='cad' value=''><br>";
-        echo "<br><input type='submit' name='submit' value='Envia'><br><br>";
-        echo "</form>";
 
         #isset, si la variable està definida i no és NULL
         if (!empty($_GET['cad'])) {
@@ -47,7 +39,7 @@
             #agafem valors
             $cad = $_GET['cad'];
 
-            echo "<h2>" . $cad . "</h2>";
+            echo "<h2>" . $cad . " =? ";
 
             #palíndrom ?
             if (palindrom($cad)) {
@@ -58,6 +50,13 @@
         } else {
             echo "<h2><mark>Falta cadena</mark></h2>";
         }
+
+        #echo $_SERVER['PHP_SELF']; //en form action per mateixa pàgina
+        echo "<form method='get' action=" . $_SERVER['PHP_SELF'] . ">";
+        echo "<label for='t1'>Cadena: </label>";
+        echo "<br><input type='text' id='t1' name='cad' value=''><br>";
+        echo "<br><input type='submit' name='submit' value='Envia'><br><br>";
+        echo "</form>";
         ?>
         <!-- fi exercici -->
     </div>

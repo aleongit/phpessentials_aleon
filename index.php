@@ -24,8 +24,9 @@ define('PATH_ROOT', '')
     echo "<ul>";
     foreach ($value as $subkey => $subvalue) {
       echo "<li>
-          <strong>{$key}.{$subkey}.</strong> 
-          <a class='sense_deco' href='essentials/{$key}/{$subkey}.php?key={$key}&subkey={$subkey}'>$subvalue</a>
+          <a class='sense_deco' href='essentials/{$key}/{$subkey}.php?key={$key}&subkey={$subkey}'>
+          <strong>{$key}.{$subkey}.</strong> $subvalue
+          </a>
           </li>";
     }
     echo "</ul></div>";

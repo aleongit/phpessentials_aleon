@@ -1,0 +1,81 @@
+/*2*/
+.seccio2 table {
+  text-align: left;
+  border-spacing: 0.1rem;
+}
+.seccio2 tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.seccio2 th {
+  /*background-color: hsl(0, 0%, 90%);*/
+  /*border-bottom: 1px solid #ddd;*/
+  padding: 0.2rem;
+}
+
+.seccio2 td {
+  /*border-bottom: 1px solid #ddd;*/
+  padding: 0.2rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+/*td:nth-child(even) {background-color: #f2f2f2;}*/
+
+.seccio2 td:hover {
+  background-color: #ffff4d;
+}
+
+.seccio2 form {
+  background-color: #e6f2ff;
+  padding: 10px;
+}
+
+.seccio2 label {
+  font-weight: bolder;
+  background-color: #cce6ff;
+}
+
+.seccio2 input {
+  font-size: 1em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.seccio2 input[type="text"] {
+  box-sizing: border-box;
+  /*width: 100%;*/
+  transition: width 0.4s ease-in-out;
+}
+
+.seccio2 input[type="radio"] {
+  width: auto;
+}
+
+.seccio2 label {
+  margin-right: 20px;
+}
+
+.seccio2 input[type="text"]:focus {
+  width: 100%;
+}
+
+.seccio2 select {
+  font-size: 1em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.seccio2 textarea {
+  font-size: 1.2em;
+  /*background-color:#e6e6ff;*/
+  padding: 5px;
+  margin: 5px;
+}
+
+.seccio2 button {
+  font-size: 1em;
+  padding: 10px;
+}

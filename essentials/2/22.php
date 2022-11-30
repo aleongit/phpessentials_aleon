@@ -3,7 +3,7 @@
 
 <div class='main'>
     <div class='seccio2'>
-        
+
         <!-- exercici -->
         <?php
 
@@ -20,22 +20,24 @@
         #comprovar si buida
         if (!empty($_GET)) {
             #comprovar si dos valor
-            if (count($_GET) == 2) {
+            #if (count($_GET) == 2) {
+            if (isset($_GET['N1']) && isset($_GET['N2'])) {
 
                 #agafo noms variables GET
                 #array_keys agafa keys i les passa a un array normal
-                $keys = array_keys($_GET);
+                #$keys = array_keys($_GET);
 
                 #agafem valors
-                $n1 = $_GET[$keys[0]];
-                $n2 = $_GET[$keys[1]];
+                #$n1 = $_GET[$keys[0]];
+                #$n2 = $_GET[$keys[1]];
+                #valors i passar a número
 
                 #comprovar si numèric   
-                if (is_numeric($n1) and is_numeric($n2)) {
+                if (is_numeric($_GET['N1']) and is_numeric($_GET['N2'])) {
                     #echo $n1."</br>";
                     #a float
-                    $n1 = floatval($n1);
-                    $n2 = floatval($n2);
+                    $n1 = floatval($_GET['N1']);
+                    $n2 = floatval($_GET['N2']);
 
                     echo $n1 . " i " . $n2;
 
@@ -45,7 +47,7 @@
                     echo "<h4><mark>Els paràmetres URL han de ser numèrics</mark></h4>";
                 }
             } else {
-                echo "<h4><mark>Has de passar 2 paràmetres per URL</mark></h4>";
+                echo "<h4><mark>Has de passar els paràmetres N1 i N2 per URL</mark></h4>";
             }
         } else {
             echo "<h4><mark>No has passat cap paràmetre per URL</mark></h4>";

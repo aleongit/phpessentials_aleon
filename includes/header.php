@@ -13,6 +13,8 @@
 
   <!-- estils aleon -->
   <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT . 'css/aleon.css' ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT . 'css/seccio1.css' ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT . 'css/seccio2.css' ?>">
 
   <!-- CSS interns -->
   <style></style>

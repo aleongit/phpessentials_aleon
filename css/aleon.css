@@ -307,7 +307,7 @@ textarea,
   border-radius: 4px;
   /*resize: vertical;*/
   font-size: 1rem;
-  /*margin: 0 0 1em;*/
+  margin: 0 0 1em;
 }
 
 label {
@@ -442,75 +442,4 @@ ul {
   }
 }
 
-/*1*/
-.seccio1 table {
-  font-family: "Courier New", Courier, monospace;
-  text-align: left;
-  border-spacing: 0.1rem;
-  padding-bottom: 2rem;
-}
-
-.seccio1 .rowflex tr {
-  display: flex;
-  flex-wrap: wrap;
-  border-bottom: none;
-  gap: 0.5rem;
-  padding: 0.5rem 0;
-}
-
-.seccio1 th {
-  background-color: hsl(0, 0%, 90%);
-  border-bottom: 1px solid #ddd;
-  padding: 0.2rem;
-}
-
-.seccio1 td {
-  border-bottom: 1px solid #ddd;
-  padding: 0.2rem;
-}
-
-.seccio1 .tdautosize td {
-  width: auto;
-  height: auto;
-}
-
-.seccio1 td:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-.seccio1 td:hover {
-  background-color: #ffff4d;
-}
-
-.seccio1 form {
-  background-color: #e6f2ff;
-  padding: 10px;
-}
-
-.seccio1 input {
-  font-size: 1em;
-  padding: 12px 20px;
-  margin: 8px 0;
-  font-weight: bold;
-}
-
-.seccio1 input[type="text"] {
-  box-sizing: border-box;
-  transition: width 0.4s ease-in-out;
-}
-
-.seccio1 input[type="text"]:focus {
-  width: 100%;
-}
-
-.seccio1 textarea {
-  font-size: 1.2em;
-  padding: 5px;
-  margin: 5px;
-}
-
-.seccio1 button {
-  font-size: 1em;
-  padding: 10px;
-}
 

@@ -29,9 +29,15 @@
         #echo $aMesDies[0][0];
         #echo $aMesDies[1][0];
 
+        #isset, si la variable està definida i no és NULL
+        if (isset($_GET['submit'])) {
+            $mes = $_GET['mesos'];
+            echo "<h1>" . $mes . " té " . diesMes($mes, $aMesDies) . " dies</h1>";
+        }
+
         echo "<form method='get' action=" . $_SERVER['PHP_SELF'] . ">";
 
-        echo "<label for='nums'>Números:</label>";
+        echo "<label for='nums'>Mesos:</label>";
         echo "<select name='mesos' id='mesos'>";
         foreach ($aMes as $el) {
             echo "<option value=" . $el . ">" . $el . "</option>";
@@ -39,12 +45,6 @@
         echo "</select>";
         echo "<input type='submit' name='submit' value='Envia'>";
         echo "</form>";
-
-        #isset, si la variable està definida i no és NULL
-        if (isset($_GET['submit'])) {
-            $mes = $_GET['mesos'];
-            echo "<h1>" . $mes . " té " . diesMes($mes, $aMesDies) . " dies</h1>";
-        }
         ?>
         <!-- fi exercici -->
     </div>

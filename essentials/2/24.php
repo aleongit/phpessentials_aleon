@@ -65,28 +65,6 @@ kelvin Fahrenheit	°F = K⋅1,8 -459,67*/
             return $cad;
         }
 
-        echo "<form method='get' action=" . $_SERVER['PHP_SELF'] . ">";
-
-        echo "<input type='radio' id='cel' name='gr' value='C' checked>";
-        echo "<label for='fah'>ºC - Celsius</label>";
-        echo "<input type='radio' id='fah' name='gr' value='F'>";
-        echo "<label for='fah'>ºF- Fahrenheit</label>";
-        echo "<input type='radio' id='kel' name='gr' value='K'>";
-        echo "<label for='fah'>K - Kelvin</label>";
-
-        echo "<br><input type='number' step='0.01' id='num' name='num' value=''><br>";
-
-        echo "<input type='radio' id='cel' name='gr_con' value='C'>";
-        echo "<label for='fah'>ºC - Celsius</label>";
-        echo "<input type='radio' id='fah' name='gr_con' value='F' checked>";
-        echo "<label for='fah'>ºF- Fahrenheit</label>";
-        echo "<input type='radio' id='kel' name='gr_con' value='K'>";
-        echo "<label for='fah'>K - Kelvin</label>";
-
-        echo "<br><input type='submit' name='submit' value='Envia'><br><br>";
-
-        echo "</form>";
-
         #isset, si la variable està definida i no és NULL
         if (!empty($_GET['num'])) {
             #echo var_dump($_GET);
@@ -104,8 +82,25 @@ kelvin Fahrenheit	°F = K⋅1,8 -459,67*/
             echo "<h1>" . $num . simbol($t1) . $t1 . " = ";
             echo converteixGraus($num, $codi) . simbol($t2) . $t2 . "</h1>";
         } else {
-            echo "<h4><mark>Falta el número</mark></h4>";
+            echo "<h1>Falta el número</h1>";
         }
+
+        echo "<form method='get' action=" . $_SERVER['PHP_SELF'] . ">";
+        echo "<input type='radio' id='cel' name='gr' value='C' checked>";
+        echo "<label for='fah'>ºC - Celsius</label>";
+        echo "<input type='radio' id='fah' name='gr' value='F'>";
+        echo "<label for='fah'>ºF- Fahrenheit</label>";
+        echo "<input type='radio' id='kel' name='gr' value='K'>";
+        echo "<label for='fah'>K - Kelvin</label>";
+        echo "<br><input type='number' step='0.01' id='num' name='num' value=''><br>";
+        echo "<input type='radio' id='cel' name='gr_con' value='C'>";
+        echo "<label for='fah'>ºC - Celsius</label>";
+        echo "<input type='radio' id='fah' name='gr_con' value='F' checked>";
+        echo "<label for='fah'>ºF- Fahrenheit</label>";
+        echo "<input type='radio' id='kel' name='gr_con' value='K'>";
+        echo "<label for='fah'>K - Kelvin</label>";
+        echo "<br><input type='submit' name='submit' value='Envia'><br><br>";
+        echo "</form>";
         ?>
         <!-- fi exercici -->
     </div>

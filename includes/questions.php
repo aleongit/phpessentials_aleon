@@ -21,10 +21,10 @@ $QUESTIONS = [
         Decideix quina seria la més adients i raona la resposta. Utilitza una taula.",
         13 => "Imprimeix per pantalla els quadrats dels 20 primers nombres naturals (1..20).
         Utilitzant un for i un while.",
-        14 => "Recull dos nombres per URL (exemple?N1=2&N2=5) dels quals hauràs d’imprimir la taula de multiplicar 
+        14 => "Recull dos nombres per URL (url?N1=2&N2=5) dels quals hauràs d’imprimir la taula de multiplicar 
         i fer també les operacions bàsiques, suma, resta, divisió, multiplicació, divisió sencera, residuo, potència.",
         15 => "Fer un programa que imprimeix tots els números que hi ha entre 2 números passats 
-        per URL (exemple?N1=2&N2=1000). El programa ha de ser robust.",
+        per URL (url?N1=2&N2=1000). El programa ha de ser robust.",
         16 => "Imprimir totes les taules de multiplicar de l’1 al 10 i que la sortida 
         es vegi en una taula HTML de 10 columnes.",
         17 => "Modifica l’exercici 5 perquè només mostri el nombres senars.",
@@ -38,9 +38,9 @@ $QUESTIONS = [
        2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 i 97."
     ],
     2 => [
-        21 => "Fes una funció per calcular el factorial d’un número (utilitzant un bucle) que passem per URL.",
+        21 => "Fes una funció per calcular el factorial d’un número (utilitzant un bucle) que passem per URL (url?VALOR=10).",
         22 => "Fes una funció per calcular l’àrea d’un rectangle, tenint en compte que la mida dels costats 
-        es passa per GET. Fes una versió amb echo dins la funció i una altra amb return.",
+        es passa per GET (url?N1=2&N2=5). Fes una versió amb echo dins la funció i una altra amb return.",
         23 => "Utilitzant un array de 2 dimensions amb el mesos i el nombre de dies corresponent. 
         Fes una funció que donat un mes que passem per get ens digui quants dies té. 
         Les dades provindran d’un formulari on amb un select tries el mes.",

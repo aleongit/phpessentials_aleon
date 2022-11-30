@@ -51,12 +51,6 @@
             return $min;
         }
 
-        echo "<form method='get' action=" . $_SERVER['PHP_SELF'] . ">";
-        echo "<label for='t1'>Cadena: </label>";
-        echo "<br><input type='text' id='t1' name='cad' value=''><br>";
-        echo "<br><input type='submit' name='submit' value='Envia'><br><br>";
-        echo "</form>";
-
         #isset, si la variable està definida i no és NULL
         if (!empty($_GET['cad'])) {
             #echo var_dump($_GET);
@@ -88,6 +82,11 @@
             echo "<h2><mark>Falta cadena</mark></h2>";
         }
 
+        echo "<form method='get' action=" . $_SERVER['PHP_SELF'] . ">";
+        echo "<label for='t1'>Cadena: </label>";
+        echo "<br><input type='text' id='t1' name='cad' value=''><br>";
+        echo "<br><input type='submit' name='submit' value='Envia'><br><br>";
+        echo "</form>";
         ?>
         <!-- fi exercici -->
     </div>
