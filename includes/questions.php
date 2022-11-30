@@ -8,7 +8,11 @@ $SECTIONS = [
     2 => [
         'title' => "Funcions",
         'subtitle' => "Subtitle funcions"
-    ]
+    ],
+    3 => [
+        'title' => "Arrays Include Require",
+        'subtitle' => "Subtitle arrays, include i require"
+    ],
 
 ];
 
@@ -51,6 +55,39 @@ $QUESTIONS = [
         26 => "Fes una funció per comprovar si un string és un palíndrom o no.",
         27 => "Fes un programa en php que pinti un tauler d’escacs per pantalla.",
         28 => "Fes un programa per fer una calculadora amb botons.",
-        ]
+    ],
+    3 => [
+        31 => "Fes una plantilla amb un header, footer, i hi haurà un enllaç a cada exercici.
+        Utilitza el més adient: include, require ...",
+        32 => "Donat el següent array, crea un programa php que mostri per cada element (ordenat per capital)",
+        33 => "Fes uns script PHP que calculi la temperatura mitjana, les 5 més fredes 
+        i les 5 més altes (en Celsius)",
+        34 => "Escriviu un programa PHP per canviar tots els valors de l’array següent
+        a majúscules o minúscules.",
+        35 => "Escriviu un script PHP per obtenir un array que conté totes les entrades 
+        d'una array que tinguin les claus presents en una altra array.",
+        36 => "Teniu dues matrius com la següent. Una conté etiquetes i l’altra conté valors . Escriviu un programa per generar la tercera matriu associativa. Utilitza bucles.",
+        37 => "Volem emmagatzemar en una matriu el nombre d'alumnes amb què compta una acadèmia, 
+        ordenats en funció de el nivell i de l'idioma que s'estudia. 
+        Hi haurà 3 files que representaran el Nivell bàsic, mitjà i de perfeccionament 
+        i 4 columnes en què figuraran els idiomes (0 = Anglès, 1 = Francès, 2 = Alemany i 3 = Rus).
+        Fes les següents funcions:
+        <b>comptarTotalAlumnes</b>, presenta el total d’alumnes de l’academia
+        <b>comptarTotalAIdioma</b>, presenta el total d’alumnes per idioma ordenat de més a menys (amb un array associatiu)
+        <b>buscarGrupMesNombros</b>, presenta per pantalla el grup més nombrós
+        <b>buscarGrupMenysNombros</b>, presenta per pantalla el grup menys nombrós",
+    ]
+];
 
+$CODE = [
+    3 => [
+        32 => '$ceu = array( "Italy"=>"Rome", "Luxembourg"=>"Luxembourg", "Belgium"=> "Brussels", "Denmark"=>"Copenhagen", "Finland"=>"Helsinki", "France" => "Paris", "Slovakia"=>"Bratislava", "Slovenia"=>"Ljubljana", "Germany" => "Berlin", "Greece" => "Athens", "Ireland"=>"Dublin", "Netherlands"=>"Amsterdam", "Portugal"=>"Lisbon", "Spain"=>"Madrid", "Sweden"=>"Stockholm", "United Kingdom"=>"London", "Cyprus"=>"Nicosia", "Lithuania"=>"Vilnius", "Czech Republic"=>"Prague", "Estonia"=>"Tallin", "Hungary"=>"Budapest", "Latvia"=>"Riga", "Malta"=>"Valetta", "Austria" => "Vienna", "Poland"=>"Warsaw")',
+        33 => '$faren = [78, 60, 62, 68, 71, 68, 73, 85, 66, 64, 76, 63, 75, 76, 73, 68, 62, 73, 72, 65, 74, 62, 62, 65, 64, 68, 73, 75, 79, 73];',
+        34 => '$color = array ("A" => "Blau", "B" => "Verd", "c" => "Vermell");',
+        37 => '$academia = [<br>
+            [1,14,8,3],<br>
+            [6,19,7,2],<br>
+            [3,13,4,1],<br>
+        ];',
+    ],
 ];
