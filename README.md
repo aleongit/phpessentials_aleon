@@ -24,7 +24,7 @@ Recopilació d'exercicis essencials PHP by aleon.
 ## Get Started
 - git clone https://github.com/aleongit/phpessentials_aleon.git
 - cd phpessentials_aleon
-- http://localhost/elblogdelhort/index.php or apache site
+- http://localhost/phpessentials_aleon/ or apache site
 
 
 ![Screenshot](screenshots/1.png)
