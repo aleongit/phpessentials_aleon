@@ -13,6 +13,10 @@ $SECTIONS = [
         'title' => "Arrays Include Require",
         'subtitle' => "Subtitle arrays, include i require"
     ],
+    4 => [
+        'title' => "Sessions",
+        'subtitle' => "Subtitle sessions"
+    ],
 
 ];
 
@@ -76,7 +80,44 @@ $QUESTIONS = [
         <b>comptarTotalAIdioma</b>, presenta el total d’alumnes per idioma ordenat de més a menys (amb un array associatiu)
         <b>buscarGrupMesNombros</b>, presenta per pantalla el grup més nombrós
         <b>buscarGrupMenysNombros</b>, presenta per pantalla el grup menys nombrós",
-    ]
+    ],
+    4 => [
+        41 => "Escriu una web de dues pàgines que sol·licita un text a l'usuari 
+        i ho mostri en les dues pàgines.
+        A la primera pàgina, se sol·licita un text de l'usuari. 
+        A la segona pàgina, es diu si s'ha escrit o no text al formulari.
+        Es poden escriure lletres o números (i prou) , una o diverses paraules. 
+        Al tornar a la primera pàgina, es mostrarà l'últim text escrit.
+        
+        Primer, la pàgina 2 ha de recollir la dada enviat pel formulari de la pàgina 1. 
+        És el procediment habitual: per POST; 
+        cal una  variable per recollir la dada;
+        variable auxiliar que indica la correcció de la dada; 
+        comprovació i missatges d'error; si la dada és correcte, missatge final.
+        La comanda que ens redirigeix a una altra pàgina és header. https://www.php.net/manual/es/function.header.php 
+        
+        Modifiqueu el programa anterior de manera que: 
+        El programa detecti si s'ha escrit o no una única paraula en majúscules.
+        La primera pàgina mostri missatges d'error, només quan la segona pàgina detecti un error.
+        La primera pàgina s'inclou en el control el valor incorrecte escrit per l'usuari, 
+        quan la segona pàgina detecti un error.",
+        42 => "Suposa una pàgina per loguejar un usuari. Crea l’estructura de 3 pàgines:
+        <br><strong>a/</strong>
+        la primera on l’usuari és logueja (email, i password).
+        Si l’usuari ja està loguejat, no mostraràs el formulari, 
+        sinó només el missatge de benvingut i el botó de logout. (Sessió d’1 minut)
+        
+        <br><strong>b/</strong>
+        La segona en cas que l’usuari s’hagi loguejat correctament
+        (qualsevol email amb el domini @lacetania.cat, i pasword 1234) digui benvingut, 
+        i mostri el botó de logout. 
+        Si l’usuari s’ha equivocat o bé en mail o bé en password mostrar missatge d’error 
+        (el mateix pels 2 casos)
+        
+        <br><strong>c/</strong>
+        Fer la pàgina de logout que s’hi accedeix si es prem el botó de logout, o bé si s’ha acabat la sessió (d’1 minut com a màxim).
+        On es destrueix la sessió i es mostra un missatge que diu fins la propera.",
+    ],
 ];
 
 $CODE = [
