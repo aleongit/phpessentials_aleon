@@ -16,6 +16,11 @@ Recopilació d'exercicis essencials PHP by aleon.
 🖥️ php -v
 → PHP 8.0.12 (cli)
 
+🖥️ Apache
+→ Apache/2.4.51 OpenSSL/1.1.1l PHP/8.0.12 Server
+
+or XAMPP
+
 
 ## Doc
 - https://www.php.net/
