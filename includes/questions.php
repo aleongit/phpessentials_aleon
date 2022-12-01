@@ -181,7 +181,7 @@ $QUESTIONS = [
         <br>. Hi ha d’haver 2 botons que mostren les dades ordenades o bé per cognoms o bé per nom
         <br>. Hi ha d’haver un formulari amb 2 inputs format data, 
                 i mostrar només els usuaris amb data de naixament entre aquestes dues dates",
-    ]
+    ],
 
 ];
 
