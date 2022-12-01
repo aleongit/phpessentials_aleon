@@ -25,6 +25,10 @@ $SECTIONS = [
         'title' => "Formularis",
         'subtitle' => "Subtitle formularis"
     ],
+    7 => [
+        'title' => "Temps i Fitxers",
+        'subtitle' => "Subtitle temps i fitxers"
+    ],
 
 ];
 
@@ -159,7 +163,26 @@ $QUESTIONS = [
             <br>. Idiomes: cal triar-ne només 1, val validar que sigui una de les opcions vàlides
             <br>. Email obligatori, validar que sigui un email correcte
             <br>. Lloc web opcional, que sigui una web correcta",
-        ],
+    ],
+    7 => [
+        71 => "Escriviu un script PHP per obtenir diferències entre dos dates 
+        (introduïdes en un formulari)
+        en anys, mesos, dies, hores, minuts, segons. 
+        Verifiqueu que la primera data és més petita que la segona, sino mostra error.",
+        72 => "Fer un programa php que et permeti pujar un arxiu en format imatge i mostrar-lo
+        (comprova que el format sigui una imatge)",
+        73 => "Fes un aplicatiu  en php que en un formulari demani 
+        nom, cognom i data de naixament dels usuaris, desa les dades en un arxiu dades.csv 
+        (que ja contindrà 100 línies com a dades fake) en format csv. 
+        https://www.w3schools.com/php/func_filesystem_fgetcsv.asp 
+        <br>. Fes un enllaç a mostrar_dades
+        <br>. llegir les dades de l’arxiu i mostrar-les en una taula de màxim 20 files
+        <br>. Fes paginació. (Link inici, anterior - següent, fi) (<<  <  >  >>)
+        <br>. Hi ha d’haver 2 botons que mostren les dades ordenades o bé per cognoms o bé per nom
+        <br>. Hi ha d’haver un formulari amb 2 inputs format data, 
+                i mostrar només els usuaris amb data de naixament entre aquestes dues dates",
+    ]
+
 ];
 
 $CODE = [

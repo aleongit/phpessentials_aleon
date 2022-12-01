@@ -8,6 +8,7 @@ Recopilació d'exercicis essencials PHP by aleon.
 - **Sessions** 41 to 42
 - **Cookies** 51 to 54
 - **Forms** 61
+--**Time and files** 71 to 74
 
 
 ## Requeriments
