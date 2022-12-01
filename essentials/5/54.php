@@ -1,6 +1,9 @@
 <?php define('PATH_ROOT', '../../'); ?>
+<?php define('FILE_CUSTOM_CSS', 'custom5.css'); ?>
 <?php
+//cal còpia de globals per fer servir
 $globals = $GLOBALS;
+//les dos globals de color estan a /includes/header
 !isset($_COOKIE['cpagina']) ? $globals['cpagina'] = 'white' : $globals['cpagina'] = $_COOKIE['cpagina'];
 !isset($_COOKIE['ctext']) ? $globals['ctext'] = 'black' : $globals['ctext'] = $_COOKIE['ctext'];
 ?>

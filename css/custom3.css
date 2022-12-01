@@ -1,0 +1,115 @@
+/*3*/
+.main nav {
+  display: block;
+  float: left;
+  width: 100%;
+  background: white;
+  padding-bottom: 0.5rem;
+}
+
+.main nav ul {
+  list-style-type: none;
+  font-size: large;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.main nav li {
+  float: left;
+  display: block;
+}
+
+.main a:link,
+.main a:visited {
+  background-color: #f2f2f2;
+  color: #4d4d4d;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.main a:hover,
+.main a:active {
+  background-color: #404040;
+  color: #f2f2f2;
+}
+
+.main a.normal:link,
+.main a.normal:visited {
+  background-color: white;
+  color: black;
+  padding: 0;
+}
+
+.main a.normal:hover,
+.main a.normal:active {
+  background-color: #404040;
+  color: #f2f2f2;
+}
+
+h4 {
+  padding: 1rem 0;
+}
+
+code {
+  display: block;
+}
+
+pre {
+  display: block;
+}
+
+form {
+  background-color: #e6f2ff;
+  padding: 10px;
+}
+
+label {
+  font-weight: bolder;
+  background-color: #cce6ff;
+}
+
+input {
+  font-size: 1em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="submit"] {
+  margin: 20px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+select {
+  font-size: 1em;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+textarea {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px;
+}

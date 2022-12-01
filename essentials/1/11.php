@@ -1,8 +1,8 @@
 <?php define('PATH_ROOT', '../../'); ?>
+<?php define('FILE_CUSTOM_CSS', 'custom1.css'); ?>
 <?php require_once PATH_ROOT . 'includes/init_essential.php'; ?>
 
 <div class='main'>
-    <div class='seccio1'>
         
         <!-- exercici -->
         <?php
@@ -69,6 +69,6 @@
 
         ?>
         <!-- fi exercici -->
-    </div>
+
 </div>
 <?php require_once PATH_ROOT . 'includes/footer.php'; ?>

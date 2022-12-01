@@ -11,11 +11,15 @@
 
   <title><?php echo TITOL; ?></title><!-- títol de la web -->
 
+
   <!-- estils aleon -->
   <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT . 'css/aleon.css' ?>">
-  <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT . 'css/seccio1.css' ?>">
-  <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT . 'css/seccio2.css' ?>">
-  <link rel="stylesheet" type="text/css" href="<?php echo PATH_ROOT . 'css/seccio3.css' ?>">
+
+  <?php
+  if (defined('FILE_CUSTOM_CSS')) {
+  echo '<link rel="stylesheet" type="text/css" href="'. PATH_ROOT . 'css/'. FILE_CUSTOM_CSS.'">';
+  }
+  ?>
 
   <!-- CSS interns -->
   <style>

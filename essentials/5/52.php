@@ -1,4 +1,5 @@
 <?php define('PATH_ROOT', '../../'); ?>
+<?php define('FILE_CUSTOM_CSS', 'custom5.css'); ?>
 <?php require_once PATH_ROOT . 'includes/init_essential.php'; ?>
 
 <div class='main'>

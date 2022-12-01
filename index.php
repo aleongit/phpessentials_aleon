@@ -1,6 +1,7 @@
 <?php
 define('TITOL', 'PHP Essentials - aleon');
-define('PATH_ROOT', '')
+define('PATH_ROOT', '');
+//define('FILE_CUSTOM_CSS', null);
 ?>
 <?php require_once PATH_ROOT.'includes/helpers.php'; ?>
 <?php require_once PATH_ROOT.'includes/questions.php'; ?>

@@ -1,0 +1,43 @@
+/*5*/
+
+#conta span {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 3px;
+  background: whitesmoke;
+  margin-right: -2px;
+  font-size: 2em;
+  margin: 0.1em;
+  border: solid 1px black;
+}
+
+.centrat {
+  text-align: center;
+  width: 30%;
+  min-width: 300px;
+  /*margin: 20px auto;*/
+  margin: 10px 0 0 0;
+}
+
+.missatge {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.estrelles {
+  font-size: 1.8em;
+}
+
+.fila_form {
+  width: 30%;
+  min-width: 200px;
+  float: left;
+}
+
+input[type="color"] {
+  width: 100px;
+  height: 50px;
+  padding: 2px 6px;
+  display: inline-block;
+  margin-left: 20px;
+}

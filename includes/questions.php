@@ -21,6 +21,10 @@ $SECTIONS = [
         'title' => "Cookies",
         'subtitle' => "Subtitle cookies"
     ],
+    6 => [
+        'title' => "Formularis",
+        'subtitle' => "Subtitle formularis"
+    ],
 
 ];
 
@@ -142,6 +146,20 @@ $QUESTIONS = [
         El programa no ha de permetre escollir el mateix color de fons que de text.",
 
     ],
+    6 => [
+        61 => "Feu un formulari amb validació de dades a la pàgina destinació: 
+            Has de fer 2 arxius, un index.php i un validacio.php.
+            <br>Passa els errors per una sessió, o bé per get  i moltra’ls a sota de cada camp.
+            Fes algunes validacions (la del nom almenys) utilitzant expressions regulars.
+            <br><strong>Normes</strong>:
+            <br>. Nom: obligatori, lletres majúscules minúscules i espais
+            <br>. Password: Obligatori, mida mínima 8, almenys una lletra majúscula, una minúscula, 
+                    una xifra i un caràcter especial (-/*+)
+            <br>. Formació (tres opcions ESO, FP o BAT). (opcional)
+            <br>. Idiomes: cal triar-ne només 1, val validar que sigui una de les opcions vàlides
+            <br>. Email obligatori, validar que sigui un email correcte
+            <br>. Lloc web opcional, que sigui una web correcta",
+        ],
 ];
 
 $CODE = [
