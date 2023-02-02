@@ -32,3 +32,9 @@ or XAMPP
 - cd phpessentials_aleon
 - http://localhost/phpessentials_aleon/ or apache site
 
+
+![Screenshot](screenshots/1.png)
+
+![Screenshot](screenshots/2.png)
+
+![Screenshot](screenshots/3.png)
